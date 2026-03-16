@@ -25,7 +25,12 @@ const Packages = () => {
             Close
           </button>
           {selectedPackage.images.map((img, i) => (
-            <img key={i} src={img} alt="" className="w-full max-w-2xl m-auto" />
+            <img
+              key={i}
+              src={`${import.meta.env.BASE_URL}${img}`}
+              alt=""
+              className="w-full max-w-2xl m-auto"
+            />
           ))}
         </div>
       )}
