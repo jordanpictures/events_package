@@ -8,9 +8,7 @@ const App = () => {
         alt="Jordan Picures"
         className="w-lg m-auto"
       />
-      <h1 className="p-3 m-5 bg-gray-700 text-white text-3xl text-center font-bold rounded-lg">
-        Event Packages
-      </h1>
+      <br />
       <Packages />
     </>
   );
